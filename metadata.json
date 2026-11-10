@@ -1,0 +1,8 @@
+{
+    "uuid": "countdown-bar@davit",
+    "name": "Countdown Bar",
+    "description": "A minimal animated countdown progress bar for GNOME Shell.",
+    "version": 1,
+    "shell-version": ["50"],
+    "url": "https://github.com/Davitestro/countdown-bar"
+}
