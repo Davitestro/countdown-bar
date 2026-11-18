@@ -4,5 +4,5 @@
   "description": "Shows a progress bar in the top panel counting down between a configurable start and end date.",
   "shell-version": ["48", "49", "50"],
   "settings-schema": "org.gnome.shell.extensions.countdown-bar",
-  "url": "https://github.com/YOUR_USERNAME/countdown-bar"
+  "url": "https://github.com/Davitestro/countdown-bar"
 }
