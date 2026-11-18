@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.countdown-bar"
+          path="/org/gnome/shell/extensions/countdown-bar/">
+    <key name="start-date" type="s">
+      <default>'2026-01-31T00:00:00+10:00'</default>
+      <summary>Start date</summary>
+      <description>Start of the countdown, as an ISO 8601 timestamp including a UTC offset.</description>
+    </key>
+    <key name="end-date" type="s">
+      <default>'2027-08-01T00:00:00+10:00'</default>
+      <summary>End date</summary>
+      <description>End of the countdown, as an ISO 8601 timestamp including a UTC offset.</description>
+    </key>
+    <key name="show-panel-label" type="b">
+      <default>true</default>
+      <summary>Show percentage in the panel</summary>
+      <description>Whether to show the percentage next to the bar in the top panel.</description>
+    </key>
+    <key name="percent-decimals" type="i">
+      <range min="0" max="8"/>
+      <default>4</default>
+      <summary>Decimals in the popup percentage</summary>
+      <description>Number of decimal places shown for the percentage in the popup.</description>
+    </key>
+  </schema>
+</schemalist>

@@ -1,8 +1,7 @@
 {
-    "uuid": "countdown-bar@davit",
-    "name": "Countdown Bar",
-    "description": "A minimal animated countdown progress bar for GNOME Shell.",
-    "version": 1,
-    "shell-version": ["50"],
-    "url": "https://github.com/Davitestro/countdown-bar"
+  "uuid": "countdown-bar@davit",
+  "name": "Countdown Bar",
+  "description": "Shows a progress bar in the top panel counting down between a configurable start and end date.",
+  "shell-version": ["48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.countdown-bar"
 }

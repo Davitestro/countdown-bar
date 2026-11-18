@@ -1,0 +1,58 @@
+.countdown-bar-box {
+    spacing: 8px;
+}
+
+.countdown-bar-track {
+    background-color: rgba(180, 220, 255, 0.16);
+}
+
+.countdown-bar-fill {
+    background-gradient-direction: horizontal;
+    background-gradient-start: #ffffff;
+    background-gradient-end: #4fb6ff;
+}
+
+.countdown-bar-panel,
+.countdown-bar-panel .countdown-bar-fill {
+    border-radius: 3px;
+}
+
+.countdown-bar-popup-bar,
+.countdown-bar-popup-bar .countdown-bar-fill {
+    border-radius: 4px;
+}
+
+.countdown-bar-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.countdown-bar-popup {
+    spacing: 6px;
+    padding: 8px 6px;
+    min-width: 220px;
+}
+
+.countdown-bar-title {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.countdown-bar-percent {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.countdown-bar-remaining {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.countdown-bar-date {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.50);
+}
